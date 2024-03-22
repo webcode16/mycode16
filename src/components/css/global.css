@@ -1,0 +1,24 @@
+/* global css */
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: poppins-bold;
+    src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+.container{
+    max-width: 96%;
+    margin: 0 auto;
+}
+body{
+    font-family: poppins;
+}
+:root{
+    --primary: #9333ea;
+    --secondary: #221d1d;
+    --tertiary: #1f2937;
+  }
+  img{
+    width: 100%;
+  }
