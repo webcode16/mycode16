@@ -28,6 +28,24 @@
     text-decoration: none;
     color: var(--secondary);
 }
+.headBtn{
+    border: 2px solid var(--primary); 
+    border-radius: 20px;
+}
+.headBtn ul{
+    display: flex;
+    gap:30px;
+    padding: 6px 20px 6px 20px;
+    margin: 0px;
+}
+.headBtn ul li{
+    font-size: 16px;
+    list-style: none;
+}
+.headBtn ul li:hover{
+    background-color: blue;
+    color: white;
+}
 .course-menu {
     box-shadow: 10px 5px 10px #ebe3e3;
     padding: 10px 0;
@@ -44,10 +62,12 @@
     
 }
 .course-menu ul li a{
-    color: #9333ea;
+    color: var(--primary);
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1.2px;
     font-size: 16px;
     text-decoration: none;
 }
+
+
