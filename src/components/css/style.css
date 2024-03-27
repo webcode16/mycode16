@@ -6,6 +6,7 @@
     padding: 0;
     border-right: 1px solid #414141;
   }
+
 .main-banner {
     display: flex;
     justify-content: space-between;
@@ -16,7 +17,7 @@
     font-size: 38px;  
     line-height: 1.2;
   }
-.banner-content h2 span{
+.banner-content h1 span{
     color: var(--primary);
     text-transform: uppercase;
     font-size: 34px; 
@@ -26,9 +27,7 @@
 .banner-content p span{
     color: var(--primary);
   }
-.banner-content p{
-    color: white;
-  }  
+ 
 .banner-content p, .banner-content p span{
     font-size: 24px;
     margin: 0;
@@ -38,20 +37,71 @@
 
 .banner-content {
   width: 50%;
-  margin-top: 10px;
-  color: white;
-  position: absolute;
 }
 
-video{
-  width: 100%;
-  height: 80%;
-  object-fit: fill;
-  /* width: full; */
+.container .main-banner{
+  max-width: 100%;
 }
+
+
 .banner-content p.subtitle{
   font-size: 16px;
   line-height: 1.4;
 }
+.main-banner .robo{
+  padding: 2rem;
+}
+
+.main-banner button {
+  background-color: var(--primary);
+  padding: 13px 20px;
+  margin: 15px 15px 0px 0px;
+  border: none;
+  border-radius: 10px;
+}
+.main-banner button a{
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--dark);
+}
+.main-banner button:hover {
+  background-color: var(--reverse);
+}
 
 
+/*---------------------Home------------------*/
+
+.career {
+  text-align: center;
+}
+.career h2{
+  margin: 0;
+  padding: 0;
+}
+.career p{
+  margin: 0;
+  padding: 0;
+}
+.career span{
+  color: var(--primary);
+}
+.career-main{
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+.career-one, .career-two, .career-three{
+  border: 2px solid var(--primary);
+  width: 28%;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.career-main h2{
+  color: var(--primary);
+  padding: 20px;
+  text-align: center;
+}
+.career-main p{
+  font-size: 15px;
+}

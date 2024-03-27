@@ -1,4 +1,11 @@
 /* header */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: var(--dark);
+  }
+  
 .main-header{
     display: flex;
     justify-content: space-between;
@@ -15,6 +22,7 @@
     letter-spacing: 1px;
     font-family: poppins-bold;
 }
+
 .menu ul {
     display: flex;
     align-items: center;

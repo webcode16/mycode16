@@ -1,4 +1,8 @@
 /* global css */
+body{
+  margin: 0;
+  padding: 0;
+}
 @font-face {
     font-family: poppins;
     src: url(../fonts/Poppins/Poppins-Medium.ttf);
@@ -16,6 +20,7 @@ body{
     background-color: var(--dark);
 }
 :root{
+    --reverse: #000000;
     --dark: #ffffff;
     --primary: #9333ea;
     --secondary: #221d1d;
@@ -23,8 +28,9 @@ body{
   }
 
   [data-theme="dark"]{
-    --primary: #ddd8e1;
-    --secondary: #fffafa;
+    --reverse: #ffffff;
+    --primary: #c17eff;
+    --secondary: #c17eff;
     --tertiary: #eaeef2;
     --dark: #000000;
   }

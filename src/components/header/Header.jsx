@@ -7,10 +7,10 @@ export default function (props) {
 
   return (
     <>
-      <header>
+      <header className='navbar'>
         <div className="container main-header">
           <div className="logo">
-            <h1>code16</h1>
+            <h1>CODE16</h1>
           </div>
           <div className="menu">
             <ul>

@@ -27,7 +27,7 @@ function App() {
     <>
     <Header mode={mode} toggleMode={toggleMode}/>
     <Banner />
-    <Home />
+    <Home/>
     </>
   );
 }
