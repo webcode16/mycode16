@@ -6,7 +6,7 @@ export default function HomeBook() {
             <div class="book">
                 <p>Hello</p>
                 <div class="cover">
-                    <img src={python} alt="#" />
+                    <p>PYTHON</p>
                 </div>
             </div>
             <div class="book">

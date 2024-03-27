@@ -23,8 +23,8 @@ export default function (props) {
           </div>
           <div className='headBtn'>
             <ul>
-              <li>Login</li>
-              <li>Sign Up</li>
+              <li className='headBtn-one'>Login</li>
+              <li className='headBtn-two'>Sign Up</li>
             </ul>
           </div>
           <div>

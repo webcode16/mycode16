@@ -2,7 +2,8 @@ import React from 'react'
 
 export default function EasySearch() {
     return (
-        <div className='container easySearch'>
+       <div className="easy">
+         <div className='container easySearch'>
             <h2>Easy To Seach for your Favrouite Language's</h2>
             <p>Code-16 Providing the Best Skill's. To Grow your career</p>
             <div class="wrapper">
@@ -10,5 +11,6 @@ export default function EasySearch() {
                 <button>GO</button>
             </div>
         </div>
+       </div>
     )
 }
