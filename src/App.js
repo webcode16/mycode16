@@ -6,6 +6,9 @@ import './components/css/style.css'
 import Banner from './components/index/Banner';
 import './components/css/global.css'
 import Home from './components/index/Home';
+import HomeBook from './components/index/HomeBook';
+import EasySearch from './components/index/EasySearch';
+import Youtube from './components/index/Youtube';
 
 
 function App() {
@@ -28,6 +31,9 @@ function App() {
     <Header mode={mode} toggleMode={toggleMode}/>
     <Banner />
     <Home/>
+    <HomeBook/>
+    <Youtube/>
+    <EasySearch/>
     </>
   );
 }
