@@ -18,7 +18,7 @@ export default function HomeBook() {
             <div class="book">
                 <p>Hello</p>
                 <div class="cover">
-                    <p>ANGULAR</p>
+                    <p>ANGULAR</p>  
                 </div>
             </div>
             <div class="book">

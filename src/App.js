@@ -9,6 +9,8 @@ import Home from './components/index/Home';
 import HomeBook from './components/index/HomeBook';
 import EasySearch from './components/index/EasySearch';
 import Youtube from './components/index/Youtube';
+import HowStart from './components/index/HowStart';
+import Footer from './components/header/Footer';
 
 
 function App() {
@@ -34,6 +36,8 @@ function App() {
     <HomeBook/>
     <Youtube/>
     <EasySearch/>
+    <HowStart/>
+    <Footer/>
     </>
   );
 }

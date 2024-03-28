@@ -23,7 +23,7 @@ export default function Youtube() {
                 </div>
                 <div className='youtube-main handel1 btn'>
                     <div className="youtube-one">
-                        <img src={banner2} alt="" />
+                        <img src={banner2} alt="" />    
                     </div>
                     <div className='youtube-desc'>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>

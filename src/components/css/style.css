@@ -144,6 +144,7 @@
 }
 
 .book {
+  color: black;
   top: 50px;
   border-radius: 10px;
   width: 300px;
@@ -165,11 +166,11 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  color: var(--dark);
   font-weight: 600;
 }
 
 .cover {
+  color: var(--dark);
   top: 0;
   position: absolute;
   background-color: var(--primary);
@@ -208,7 +209,7 @@
 
 /*--------------Easy Search------------------*/
 .easy{
-  padding-top: 200px;
+  padding-top: 250px;
 }
 .easySearch {
   background-image: linear-gradient(to bottom right, rgb(181 61 255), rgb(131 198 137));
@@ -234,8 +235,11 @@
   font-size: 15px;
   border: none;
   color: var(--dark);
-  font-weight: 600;
-  
+  font-weight: 600; 
+}
+
+.wrapper button:hover {
+  background: var(--tertiary);
 }
 
 .wrapper input {
@@ -268,14 +272,13 @@
   position: relative;
 }
 
-.youtube-main{
-  border: 2px solid var(--primary);
-  border-radius: 20px;
-}
 
 .youtube-main{
   width: 60%;
   position: absolute;
+  background-color: var(--dark);
+  border-radius: 20px;
+  border: 2px solid var(--primary);
 }
 .handel0{
   rotate: 350deg;
@@ -302,4 +305,126 @@
   /* color: var(--dark); */
   border-radius: 0px 0px 18px 18px;
 }
+
+/*------------------howStart------------------*/
+.howStart h2{
+  margin: 0;
+  padding: 0;
+  line-height: 10px;
+  color: var(--primary);
+}
+
+.howStart{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+.howStart-main-one{
+  /* border: 2px solid var(--primary);  */
+  width: 20%;
+}
+
+.howStart-main{
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.howStart-main-one.down {
+  transform: translate3d(10px, 100px, 10px);
+}
+
+.howStart-main .down .line{
+  border-left: 3px solid  rgb(247, 189, 189);
+  border-top: 3px solid rgb(197, 255, 130);
+  transform: translateY(-30px) translateX(112px);
+  /* rotate: 270deg; */
+  padding: 2rem;
+  width: 44%;
+  animation: mymove-one 2s infinite;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition: border 0.3s;
+}
+@keyframes mymove-one {
+  from {border-left: 3px solid red;}
+  to {border-top: 3px solid rgb(36, 179, 89);}
+}
+
+.howStart-main .line.one{
+  border-left: 3px solid rgb(247, 189, 189);
+  border-bottom: 3px solid rgb(211, 250, 167);
+  transform: translateY(15px) translateX(121px);
+  /* rotate: 270deg; */
+  padding: 2rem;
+  width: 44%;
+  animation: mymove 2s infinite;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition: border 0.3s;
+}
+@keyframes mymove {
+  from {border-left: 3px solid rgb(36, 179, 89);}
+  to {border-bottom: 3px solid red;}
+}
+
+.howStart-main img{
+  width: 30%;
+  background-color: #70b03e;
+  border-radius: 30px;
+  padding: 1rem;
+  margin: auto;
+  align-self: center;
+  filter: invert();
+}
+/*-----------Footer---------------*/
+.footer-main{
+  display: flex;
+  margin-top: 200px;
+  justify-content: space-between;
+  background-color: #000c14;
+  padding: 50px;
+  color: white;
+}
+
+.footer-main{
+ border-top: 2px solid var(--primary);
+}
+#darkFooter ul li{
+  list-style: none;
+  line-height: 30px;
+}
+#darkFooter ul{
+  padding: 0;
+}
+.footer-sec.social{
+  width: 20%;
+  /* border: 1px solid red; */
+} 
+
+
+.footer-sec h3{
+  text-decoration: underline 4px var(--primary);
+  text-underline-offset: 15px;
+  padding-bottom: 0px;
+  font-weight: 600;
+}
+
+.footer-sec ul li a{
+  text-decoration: none;
+  color:  white;
+}
+.footer-sec ul li a:hover{
+  color: #c17eff;
+  transition: 0.5s ease;
+}
+
+.footer-sec .myicon:hover {
+  box-shadow: 0px 2px 14px 6px #c17eff;
+  border-radius: 70px;
+  transition: 0.3s ease;
+}
+.footer-sec .myicon{
+  margin-right: 15px
+}
+
+
 
