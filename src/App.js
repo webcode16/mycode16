@@ -28,18 +28,19 @@ function App() {
 
     }
   }
+
   return (
     <>
-    <Header mode={mode} toggleMode={toggleMode}/>
-    <Banner />
-    <Home/>
-    <HomeBook/>
-    <Youtube/>
-    <EasySearch/>
-    <HowStart/>
-    <Footer/>
+          <Header mode={mode} toggleMode={toggleMode} />
+          <Banner />
+          <Home />
+          <HomeBook />
+          <Youtube />
+          <EasySearch />
+          <HowStart />
+          <Footer />
     </>
   );
-}
+} 
 
 export default App;

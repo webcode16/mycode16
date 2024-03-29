@@ -6,7 +6,7 @@ import earth from '../photos/earth.png'
 
 export default function HowStart() {
     return (
-        <div className='howStart'>
+        <div className='container howStart'>
             <h2>How we can Learn</h2>
             <p>Basic's Learning concept you can here</p>
             <div className='howStart-main'>

@@ -376,30 +376,32 @@
   filter: invert();
 }
 /*-----------Footer---------------*/
-.footer-main{
+.divide-footer{
   display: flex;
-  margin-top: 200px;
   justify-content: space-between;
-  background-color: #000c14;
-  padding: 50px;
   color: white;
 }
 
 .footer-main{
  border-top: 2px solid var(--primary);
+ padding: 30px;
+ background-color: #000c14;
+ margin-top: 200px;
 }
 #darkFooter ul li{
   list-style: none;
-  line-height: 30px;
+  line-height: 40px;
 }
 #darkFooter ul{
-  padding: 0;
+  padding: 20px 0px 0px 0px;
 }
 .footer-sec.social{
   width: 20%;
   /* border: 1px solid red; */
 } 
-
+.social-icons{
+  padding: 20px 0px 0px 0px;
+}
 
 .footer-sec h3{
   text-decoration: underline 4px var(--primary);
@@ -425,7 +427,21 @@
 .footer-sec .myicon{
   margin-right: 15px
 }
+hr{
+  border: 1px solid var(--primary);
+  border-radius: 20px;
+}
+.cpywrite{
+  color: white;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.cpywrite span{
+  color: #c17eff;
+}
+/*--------------Happy Ending At the End------------------*/
 
 
 
-/*--------------Happy Ending------------------*/
+
