@@ -8,7 +8,7 @@ import XIcon from '@mui/icons-material/X';
 
 export default function Footer() {
     return (
-
+       <div className='footer-main'>    
         <div id="darkFooter" className='container footer-main'>
             <div className='divide-footer'>
                 <div className="footer-sec">
@@ -51,6 +51,7 @@ export default function Footer() {
                 <p>All Rights reversed by <span>@code16</span></p>
             </div>
         </div>
+      </div>
 
     )
 }

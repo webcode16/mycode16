@@ -12,7 +12,7 @@ body{
     src: url(../fonts/Poppins/Poppins-Bold.ttf);
 }
 .container{
-    max-width: 96%;
+    max-width: 1440px;
     margin: 0 auto;
 }
 body{
@@ -36,6 +36,14 @@ body{
   }
   img{
     width: 100%;
+  }
+  ul{
+    padding: 0;
+  }
+  @media(max-width:1600px) {
+    .container{
+      max-width: 1140px;
+  }
   }
 
 

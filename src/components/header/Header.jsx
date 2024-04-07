@@ -21,14 +21,16 @@ export default function (props) {
               <li className="btn"><a href='#'>Contact</a></li>
             </ul>
           </div>
-          <div className='headBtn'>
-            <ul>
-              <li className='headBtn-one'>Login</li>
-              <li className='headBtn-two'>Sign Up</li>
-            </ul>
-          </div>
-          <div>
-            <FontAwesomeIcon onClick={props.toggleMode} icon={faMoon} size="2x" color="#9333ea" />
+          <div className='right-side-l-i'>
+            <div className='headBtn'>
+              <ul>
+                <li className='headBtn-one'>Login</li>
+                <li className='headBtn-two'>Sign Up</li>
+              </ul>
+            </div>
+            <div className='change-body'>
+              <FontAwesomeIcon onClick={props.toggleMode} icon={faMoon} size="2x" color="#9333ea" />
+            </div>
           </div>
         </div>
         <div className="course-menu">
@@ -37,6 +39,7 @@ export default function (props) {
             <li><a href="#">css</a></li>
             <li><a href="#">javascript</a></li>
             <li><a href="#">jquery</a></li>
+            <li><a href="#">Python</a></li>
             <li><a href="#">cms</a></li>
           </ul>
         </div>

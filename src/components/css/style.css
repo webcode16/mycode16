@@ -75,11 +75,13 @@
 .btn button:hover {
   background-color: var(--reverse);
 }
-
+.career-one ul {
+  padding-left: 40px;
+}
 
 /*---------------------Home------------------*/
 .top-career {
-  padding-top: 100px;
+  padding-top: 40px;
 }
 
 .career {
@@ -101,9 +103,10 @@
 }
 
 .career-main {
-  margin-top: 70px;
+  margin-top: 40px;
   display: flex;
   justify-content: space-around;
+  gap: 20px;
 }
 
 .career-one,
@@ -114,10 +117,12 @@
   border-radius: 20px;
   padding: 20px 20px 30px 20px;
 }
-
+.banner-content h1 {
+  margin-bottom: 10px;
+}
 .career-main h2 {
   color: var(--primary);
-  padding: 20px;
+  padding: 20px 0 0 0;
   text-align: center;
 }
 
@@ -126,14 +131,16 @@
 }
 
 .career-main button {
-  transform: translateX(60%);
+  /* transform: translateX(60%); */
+  margin-left: 20px;
 }
 
 /*-----------------HomeBook---------------------*/
 .homeBook {
-  padding: 70px 20px 90px 20px;
+  padding: 60px 20px 60px 20px;
   display: flex;
   justify-content: space-evenly;
+  gap: 20px;
 }
 
 .homeBook .cover img {
@@ -209,16 +216,18 @@
 
 /*--------------Easy Search------------------*/
 .easy{
-  padding-top: 250px;
+  padding-top: 240px;
 }
 .easySearch {
   background-image: linear-gradient(to bottom right, rgb(181 61 255), rgb(131 198 137));
   text-align: center;
   padding: 50px;
+  border-radius: 20px;
 }
 
 .easySearch h2 {
   color: var(--dark);
+  margin-top: 0;
 }
 
 .wrapper {
@@ -316,7 +325,7 @@
 
 .howStart{
   text-align: center;
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 150px;
 }
 .howStart-main-one{
@@ -375,71 +384,7 @@
   align-self: center;
   filter: invert();
 }
-/*-----------Footer---------------*/
-.divide-footer{
-  display: flex;
-  justify-content: space-between;
-  color: white;
-}
 
-.footer-main{
- border-top: 2px solid var(--primary);
- padding: 30px;
- background-color: #000c14;
- margin-top: 200px;
-}
-#darkFooter ul li{
-  list-style: none;
-  line-height: 40px;
-}
-#darkFooter ul{
-  padding: 20px 0px 0px 0px;
-}
-.footer-sec.social{
-  width: 20%;
-  /* border: 1px solid red; */
-} 
-.social-icons{
-  padding: 20px 0px 0px 0px;
-}
-
-.footer-sec h3{
-  text-decoration: underline 4px var(--primary);
-  text-underline-offset: 15px;
-  padding-bottom: 0px;
-  font-weight: 600;
-}
-
-.footer-sec ul li a{
-  text-decoration: none;
-  color:  white;
-}
-.footer-sec ul li a:hover{
-  color: #c17eff;
-  transition: 0.5s ease;
-}
-
-.footer-sec .myicon:hover {
-  box-shadow: 0px 2px 14px 6px #c17eff;
-  border-radius: 70px;
-  transition: 0.3s ease;
-}
-.footer-sec .myicon{
-  margin-right: 15px
-}
-hr{
-  border: 1px solid var(--primary);
-  border-radius: 20px;
-}
-.cpywrite{
-  color: white;
-  padding-top: 5px;
-  text-align: center;
-}
-
-.cpywrite span{
-  color: #c17eff;
-}
 /*--------------Happy Ending At the End------------------*/
 
 
